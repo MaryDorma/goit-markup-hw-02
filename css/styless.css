@@ -72,6 +72,8 @@ ul {
   color: var(--wight-color);
 }
 .main-herobtn {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -81,6 +83,7 @@ ul {
 }
 .main-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -140,14 +143,24 @@ ul {
 }
 
 /* ----------------------------PORTFOLIO MAIN-------------------- */
-.portfbtn-item > li {
-  background-color: var(--portfolio-backgrnd);
+
+.portfbtn-item > button {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--portfolio-backgrnd);
 }
 .portfbtn-item > button:hover,
 .portfbtn-item > button:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   background-color: var(--accent-color);
   color: var(--wight-color);
 }
